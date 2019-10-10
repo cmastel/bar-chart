@@ -8,8 +8,7 @@ This project consists of a library that will help other programmers develop bar 
 * For the github history, I tried creating a fork with files in a different folder (rewrite1), but there is now an issue
   between what is on github and my local git repository. In the github repository, you can ignore the rewrite1 folder as
   all other files (barchart.html, main.js, assets/stylesheets/main.css) are up-to-date.
-* I haven't figured out why the 0 values in the chart are still showing a bar. 
-* Again, any feedback is appreciated. Going through this exercise I have definitely learned a better way to approach it 
+* Any feedback is appreciated. Going through this exercise I have definitely learned a better way to approach it 
   from the start that would likely result in a better end-product and cleaner code. 
 
 ## Implementation
@@ -38,6 +37,18 @@ that can be specified:
 * bar colour
 * chart title
 * y-Axis title
+
+## Known Issues
+
+* For items with a value of '0', a bar is still present 
+* Negative values will cause issues
+* gitignore has not been implemented
+
+## Roadmap of Future Features
+
+* Fix Known Issues
+* Implement an API to easily have a user input their data and chart preferences
+* Further work on Design of the website
 
 ## Authors
 
